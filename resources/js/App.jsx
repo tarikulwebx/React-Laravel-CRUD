@@ -1,9 +1,14 @@
 import React from 'react'
+import EmployeeTable from './components/employeeList/EmployeeTable';
+import TopNavbar from './components/partials/TopNavbar';
 
 const app = () => {
   return (
-    <h1>My App</h1>
-  )
+      <>
+          <TopNavbar />
+          <EmployeeTable />;
+      </>
+  );
 }
 
-export default app
+export default app;
